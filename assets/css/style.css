@@ -1,1 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --fundo: #141210;
+  --segundo-fundo: #1a1714;
+  --fundo-card-destaque: #211d18;
+  --texto-principal: #ede6da;
+  --texto-secundario: #b8afa2;
+  --texto-apoio: #a39a8d;
+  --botoes-precos: #c8a25c;
+  --hover: #e0be7e;
+  --borda-cards: #2e2924;
+  --borda-campos-horarios: #3a342e;
+  --borda-botao-secundario: #5a5148;
+  --borda-menu-footer: #2a2622;
+}
