@@ -163,7 +163,86 @@
       </div>
     </section>
 
-    <section class="form"></section>
+    <section class="form">
+      <div class="titulo-form">
+        <h2 class="form-titulo">Agende em 1 minuto</h2>
+        <p class="form-subtitulo">
+          Escolha o serviço, o dia e o horário. Você recebe a confirmação no
+          WhatsApp.
+        </p>
+      </div>
+
+      <form action="">
+        <label for="">Seu nome</label>
+        <input type="text" placeholder="Como podemos te chamar?" />
+
+        <div class="corte-dia">
+          <div class="corte">
+            <label for="">Servico</label>
+            <select name="" id="">
+              <option value="">Escolha seu serviço</option>
+              <option value="">Corte clássico</option>
+              <option value="">Barba</option>
+              <option value="">Corte + barba</option>
+              <option value="">Degradê</option>
+              <option value="">Pezinho e sobrancelha</option>
+              <option value="">Pigmentação</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="horarios">
+          <label for="">Horário</label>
+          <div class="horario">
+            <button class="btn-horario">09:00</button>
+            <button class="btn-horario">10:00</button>
+            <button class="btn-horario">11:30</button>
+            <button class="btn-horario">13:00</button>
+            <button class="btn-horario">14:00</button>
+            <button class="btn-horario">15:30</button>
+            <button class="btn-horario">17:00</button>
+            <button class="btn-horario">18:30</button>
+          </div>
+
+          <button class="btn-confirmacao">Confirmar agendamento</button>
+        </div>
+      </form>
+    </section>
+
+    <footer id="contato" class="footer">
+      <div class="footer__grid">
+        <div class="footer__marca">
+          <a href="#" class="logo">NAVALHA <span>&amp; CO.</span></a>
+          <p>Cortes, barbas e acabamentos feitos com calma e navalha afiada.</p>
+        </div>
+
+        <div>
+          <h3>Endereço</h3>
+          <address>
+            Rua Exemplo, 123<br />
+            Centro, Sua Cidade – RS<br />
+            <a href="tel:+5554999999999">(54) 99999-9999</a>
+          </address>
+        </div>
+
+        <div>
+          <h3>Horário</h3>
+          <ul class="footer__horarios">
+            <li><span>Ter a Sex</span><span>9h – 20h</span></li>
+            <li><span>Sábado</span><span>8h – 18h</span></li>
+            <li><span>Dom e Seg</span><span>Fechado</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__base">
+        <span
+          >© <span id="ano"></span> Navalha &amp; Co. Todos os direitos
+          reservados.</span
+        >
+        <a href="#">Voltar ao topo ↑</a>
+      </div>
+    </footer>
 
     <script src="assets/js/script.js"></script>
   </body>
