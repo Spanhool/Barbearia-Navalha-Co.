@@ -155,4 +155,91 @@ nav .links a.btn-agendar {
 
 .servicos {
   background-color: var(--segundo-fundo);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding: 0 70px 70px;
+}
+
+.titulos {
+  grid-column: 1 / -1;
+  font-family: "Anton";
+  color: var(--texto-principal);
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 100;
+  padding-top: 30px;
+  margin-bottom: 10px;
+}
+
+.cards {
+  position: relative;
+  background-color: var(--fundo-card-destaque);
+  border: 1px solid var(--borda-cards);
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.cards.destaque {
+  border-color: var(--botoes-precos);
+}
+
+.badge {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  background-color: var(--botoes-precos);
+  color: var(--fundo);
+  font-family: "Archivo", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.card-titulo {
+  color: var(--texto-principal);
+  font-family: "Archivo", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px;
+  padding-right: 90px;
+}
+
+.descricao {
+  color: var(--texto-apoio);
+  font-family: "Archivo", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0 0 20px;
+}
+
+.cards hr {
+  border: none;
+  border-top: 1px solid var(--borda-cards);
+  margin: 0 0 20px;
+}
+
+.preco-tempo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.preco {
+  color: var(--botoes-precos);
+  font-family: "Anton", sans-serif;
+  font-weight: 100;
+  font-size: 28px;
+  margin: 0;
+}
+
+.tempo {
+  color: var(--texto-secundario);
+  font-family: "Archivo", sans-serif;
+  font-size: 13px;
+  margin: 0;
 }
