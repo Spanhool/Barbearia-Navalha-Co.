@@ -14,3 +14,48 @@
   --borda-botao-secundario: #5a5148;
   --borda-menu-footer: #2a2622;
 }
+
+body {
+  background-color: var(--fundo);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 70px;
+  padding-right: 70px;
+  height: 100px;
+  align-items: center;
+  border-bottom: 1px solid var(--borda-menu-footer);
+}
+
+nav .name {
+  color: var(--texto-principal);
+  font-family: "Anton";
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+nav span {
+  color: var(--botoes-precos);
+  font-size: 20px;
+}
+
+nav .links {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  font-family: "Archivo";
+  font-size: 15px;
+}
+
+nav .links a {
+  text-decoration: none;
+  color: var(--texto-principal);
+}
+
+nav .links a.btn-agendar {
+  background-color: var(--botoes-precos);
+  padding: 12px 25px;
+  color: var(--fundo);
+}
